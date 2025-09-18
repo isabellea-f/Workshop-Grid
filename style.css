@@ -1,0 +1,9 @@
+.grid-1 {
+  background-color: gray;
+  width: 50%;
+}
+
+.grid-1 div {
+  width: 100px;
+  height: 100px;
+}
