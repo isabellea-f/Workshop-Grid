@@ -58,6 +58,37 @@
 }
 
 .grid-3 div {
-  height: 20px;
-  width: 20px;
+  /*   height: 20px;
+  width: 20px; */
+  background-color: red;
+}
+
+.grid-3 .ett {
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 2;
+}
+
+.grid-3 .två {
+  grid-row: 2 / 3;
+  grid-column: 7 / 9;
+}
+
+.grid-3 .tre {
+  grid-row: 3 / 6;
+  grid-column: 2 / 10;
+}
+
+.grid-3 .fyra {
+  grid-row: 6 / span 1;
+  grid-column: 3 / span 6;
+}
+
+.grid-3 .fem {
+  grid-row: 7 / span 1;
+  grid-column: 4 / span 4;
+}
+
+.grid-3 .sex {
+  grid-row: 8 / span 1;
+  grid-column: 5 / span 2;
 }
