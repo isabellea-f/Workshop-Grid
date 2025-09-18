@@ -91,3 +91,40 @@
 .grid-3 .sex {
   grid-area: 8 / 5 / span 1 / span 2;
 }
+
+.grid-4 {
+  display: grid;
+  background-color: orange;
+  grid-template: repeat(4, 1fr) / 1fr 3fr;
+  margin-bottom: 10rem;
+  gap: 1vh;
+}
+
+.grid-4 > * {
+  padding: 20px;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / span 2;
+  background-color: aquamarine;
+}
+
+/* Row start / Column start / Row end / Column End */
+
+.menu {
+  background-color: beige;
+  grid-area: 2 / 1 / span 2 / span 1;
+}
+
+.section-1 {
+  background-color: bisque;
+}
+
+.section-2 {
+  background-color: blueviolet;
+}
+
+.footer {
+  background-color: cadetblue;
+  grid-column: 1 / span 2;
+}
