@@ -89,6 +89,5 @@
 }
 
 .grid-3 .sex {
-  grid-row: 8 / span 1;
-  grid-column: 5 / span 2;
+  grid-area: 8 / 5 / span 1 / span 2;
 }
