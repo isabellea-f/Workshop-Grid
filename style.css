@@ -29,7 +29,8 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1.5fr 3fr;
+  grid-template-rows: 1fr 1fr;
   gap: 15px;
 }
 
@@ -37,4 +38,13 @@
   background-color: rgb(112, 240, 38);
   padding: 20px;
   text-align: center;
+}
+
+.item-2 {
+  background-color: rgb(62, 62, 211);
+  color: white;
+  font-size: 3rem;
+  grid-auto-rows: 100px;
+  text-align: right;
+  padding-right: 15px;
 }
